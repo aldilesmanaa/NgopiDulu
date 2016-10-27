@@ -15,22 +15,38 @@
     tools:showIn="@layout/app_bar_main"
     android:weightSum="1">
 
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:textAlignment="center"
-        android:text="Selamat Datang di Ngopi Dulu"
-        android:textColor="#e17e0e"
-        android:layout_weight="0.15" />
+        android:layout_height="match_parent"
+        android:layout_weight="0.15">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:text="disini kami menyediakan berbagai macam kopi dari berbagai tempat dengan menggunakan bahan-bahan pilihan dengan kualitas terbaik
-        "
-        android:textColor="#e17e0e" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/kopi2"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Selamat Datang di Ngopi Dulu"
+            android:textColor="#e17e0e"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="disini kami menyediakan berbagai macam kopi dari berbagai tempat dengan menggunakan bahan-bahan pilihan dengan kualitas terbaik
+            "
+            android:textColor="#e17e0e"
+            android:layout_weight="0.15" />
+
+    </LinearLayout>
+
 </LinearLayout>

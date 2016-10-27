@@ -121,11 +121,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(iAbout);
                 break;
 
-            case R.id.nav_history:
-                Intent iHistory = new Intent(getApplicationContext(), About.class);
-                startActivity(iHistory);
-                break;
-
             case R.id.nav_booking:
                 Intent iBooking = new Intent(getApplicationContext(), Booking.class);
                 startActivity(iBooking);
